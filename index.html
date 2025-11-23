@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дворик вкусов — меню</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-logo">
+                <img src="assets/img/logo-dvorik.jpeg" alt="Дворик вкусов логотип">
+            </div>
+            <div class="header-text">
+                <div class="header-sub">кафе · мангал · роллы</div>
+                <h1>Дворик вкусов</h1>
+                <p class="header-note">
+                    Домашняя еда, ароматный мангал и уют деревенского дворика.
+                    Выберите раздел меню ниже.
+                </p>
+                <p class="header-phone" style="font-size:1rem;font-weight:600;color:#c27a45;margin-top:6px;">📞 +7 (921) 198-99-44</p>
+            </div>
+            <div class="header-badge">
+                Тёпло, как в гостях у друзей
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu-categories">
+        <button class="category-btn active" data-target="appetizers">
+            <span class="icon"></span> Закуски
+        </button>
+        <button class="category-btn" data-target="main-dishes">
+            <span class="icon"></span> Основные блюда
+        </button>
+        <button class="category-btn" data-target="lavash">
+            <span class="icon"></span> В лаваше
+        </button>
+        <button class="category-btn" data-target="salads">
+            <span class="icon"></span> Салаты
+        </button>
+        <button class="category-btn" data-target="grill">
+            <span class="icon"></span> Мангал
+        </button>
+        <button class="category-btn" data-target="sides">
+            <span class="icon"></span> Гарниры
+        </button>
+        <button class="category-btn" data-target="rolls">
+            <span class="icon"></span> Роллы
+        </button>
+        <button class="category-btn" data-target="asian">
+            <span class="icon"></span> Азиатская кухня
+        </button>
+    </nav>
+
+    <!-- Секции меню -->
+
+    <section id="appetizers" class="menu-section active">
+        <div class="menu-section-content">
+            <h2 class="section-title">Закуски</h2>
+            <p class="section-sub">Лёгкий старт перед основными блюдами и мангалом.</p>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Свежие овощи</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Сыр и зелень</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Соленья</span>
+                        <span class="item-price">500 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Сет пивной</span>
+                        <span class="item-price">750 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Креветки в кляре с соусом тар-тар</span>
+                        <span class="item-price">450 ₽</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="main-dishes" class="menu-section">
+        <div class="menu-section-content">
+            <h2 class="section-title">Основные блюда</h2>
+            <p class="section-sub">Сытные блюда для хорошей компании.</p>
+            <div class="item-weight">Средний вес порции ~600 г</div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шаверма с курицей</span>
+                        <span class="item-price">450 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шаверма со свининой</span>
+                        <span class="item-price">480 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из курицы</span>
+                        <span class="item-price">480 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из говядины</span>
+                        <span class="item-price">550 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из баранины</span>
+                        <span class="item-price">600 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из куриного бедра</span>
+                        <span class="item-price">550 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из свиной шеи</span>
+                        <span class="item-price">600 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из баранины</span>
+                        <span class="item-price">950 ₽</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Запечённые свиные рёбрышки су-вид</span>
+                        <span class="item-price">600 ₽</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="lavash" class="menu-section">
+        <div class="menu-section-content">
+            <h2 class="section-title">Блюда в лаваше</h2>
+            <p class="section-sub">Удобно взять с собой или к бокалу пива.</p>
+            <div class="item-weight">Средний вес порции ~470 г</div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шаверма в лаваше с курицей</span>
+                        <span class="item-price">350 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шаверма в лаваше со свининой</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шаверма с креветкой</span>
+                        <span class="item-price">550 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из курицы в лаваше</span>
+                        <span class="item-price">380 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из говядины в лаваше</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из баранины в лаваше</span>
+                        <span class="item-price">450 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из свинины в лаваше</span>
+                        <span class="item-price">450 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из курицы в лаваше</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Запечённые свиные рёбрышки в лаваше</span>
+                        <span class="item-price">450 ₽</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="salads" class="menu-section">
+        <div class="menu-section-content">
+            <h2 class="section-title">Салаты и суп дня</h2>
+            <p class="section-sub">Свежие овощи, зелень и любимая классика.</p>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Village боул — салат</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Цезарь с курицей на гриле</span>
+                        <span class="item-price">450 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Цезарь с креветкой</span>
+                        <span class="item-price">500 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Летний</span>
+                        <span class="item-price">300 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Греческий</span>
+                        <span class="item-price">350 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Витаминный</span>
+                        <span class="item-price">200 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Супчик дня</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="grill" class="menu-section">
+        <div class="menu-section-content">
+            <h2 class="section-title">Мясо на мангале</h2>
+            <p class="section-sub">Готовим на углях, как на загородной веранде.</p>
+            <div class="item-weight">Вес порции ~200 г • возможна подача сетом</div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из курицы</span>
+                        <span class="item-price">350 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из говядины</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Люля-кебаб из баранины</span>
+                        <span class="item-price">480 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из куриного бедра</span>
+                        <span class="item-price">490 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из свиной шеи</span>
+                        <span class="item-price">500 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из баранины, рёбра</span>
+                        <span class="item-price">800 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Шашлык из куриных крылышек</span>
+                        <span class="item-price">400 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Сет из люля-кебаб</span>
+                        <span class="item-price">1750 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Сет мясной</span>
+                        <span class="item-price">2000 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Сет три вида мяса</span>
+                        <span class="item-price">7000 ₽</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="sides" class="menu-section">
+        <div class="menu-section-content">
+            <h2 class="section-title">Гарниры и соусы</h2>
+            <p class="section-sub">К любому блюду с мангала.</p>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Картофель запечённый</span>
+                        <span class="item-price">190 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Картофель фри</span>
+                        <span class="item-price">190 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Картофель «Аладхо»</span>
+                        <span class="item-price">220 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Картофель на углях</span>
+                        <span class="item-price">220 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Соус (в ассортименте)</span>
+                        <span class="item-price">80 ₽</span>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Матикаш</span>
+                        <span class="item-price">80 ₽</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="rolls" class="menu-section">
+        <div class="menu-section-content">
+            <h2 class="section-title">Роллы</h2>
+            <p class="section-sub">Классика и фирменные варианты от повара.</p>
+
+            <h3 class="subcategory-title">Холодные роллы</h3>
+            <table class="table-menu">
+                <tr>
+                    <td>Филадельфия классическая</td>
+                    <td class="price-cell">650 ₽</td>
+                </tr>
+                <tr>
+                    <td>Калифорния классическая</td>
+                    <td class="price-cell">390 ₽</td>
+                </tr>
+                <tr>
+                    <td>Чикен ролл</td>
+                    <td class="price-cell">350 ₽</td>
+                </tr>
+                <tr>
+                    <td>Сливочная Филадельфия</td>
+                    <td class="price-cell">450 ₽</td>
+                </tr>
+                <tr>
+                    <td>Футомаки с жареной креветкой</td>
+                    <td class="price-cell">450 ₽</td>
+                </tr>
+                <tr>
+                    <td>Каппа маки</td>
+                    <td class="price-cell">150 ₽</td>
+                </tr>
+                <tr>
+                    <td>Саке маки</td>
+                    <td class="price-cell">200 ₽</td>
+                </tr>
+            </table>
+
+            <h3 class="subcategory-title">Жареные роллы</h3>
+            <table class="table-menu">
+                <tr>
+                    <td>Жареный ролл с курицей</td>
+                    <td class="price-cell">380 ₽</td>
+                </tr>
+                <tr>
+                    <td>Цезарь с креветкой</td>
+                    <td class="price-cell">480 ₽</td>
+                </tr>
+                <tr>
+                    <td>Цезарь с курицей</td>
+                    <td class="price-cell">380 ₽</td>
+                </tr>
+            </table>
+
+            <h3 class="subcategory-title">Запечённые роллы</h3>
+            <table class="table-menu">
+                <tr>
+                    <td>Запечённый ролл с курицей</td>
+                    <td class="price-cell">400 ₽</td>
+                </tr>
+                <tr>
+                    <td>Запечённый ролл с крабом</td>
+                    <td class="price-cell">400 ₽</td>
+                </tr>
+                <tr>
+                    <td>Запечённый ролл с креветкой</td>
+                    <td class="price-cell">480 ₽</td>
+                </tr>
+                <tr>
+                    <td>Запечённый ролл с лососем</td>
+                    <td class="price-cell">500 ₽</td>
+                </tr>
+                <tr>
+                    <td>Запечённый ролл с мидией</td>
+                    <td class="price-cell">400 ₽</td>
+                </tr>
+                <tr>
+                    <td>Калифорния запечённая</td>
+                    <td class="price-cell">450 ₽</td>
+                </tr>
+                <tr>
+                    <td>Филадельфия запечённая</td>
+                    <td class="price-cell">600 ₽</td>
+                </tr>
+            </table>
+
+            <h3 class="subcategory-title">Сеты</h3>
+            <table class="table-menu">
+                <tr>
+                    <td>Дворик вкусов</td>
+                    <td class="price-cell">1790 ₽</td>
+                </tr>
+                <tr>
+                    <td>Запечённый</td>
+                    <td class="price-cell">1590 ₽</td>
+                </tr>
+                <tr>
+                    <td>Трис</td>
+                    <td class="price-cell">1100 ₽</td>
+                </tr>
+                <tr>
+                    <td>Банзай</td>
+                    <td class="price-cell">1390 ₽</td>
+                </tr>
+                <tr>
+                    <td>Филадельфия</td>
+                    <td class="price-cell">1900 ₽</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="asian" class="menu-section">
+        <div class="menu-section-content">
+            <h2 class="section-title">Азиатская кухня</h2>
+            <p class="section-sub">Удон, вок и супы в азиатском стиле.</p>
+
+            <h3 class="subcategory-title">Вок и удон</h3>
+            <table class="table-menu">
+                <tr>
+                    <td>Удон с морепродуктами</td>
+                    <td class="price-cell">500 ₽</td>
+                </tr>
+                <tr>
+                    <td>Удон с курицей</td>
+                    <td class="price-cell">400 ₽</td>
+                </tr>
+                <tr>
+                    <td>Удон овощной</td>
+                    <td class="price-cell">350 ₽</td>
+                </tr>
+                <tr>
+                    <td>Рис в сливочном соусе</td>
+                    <td class="price-cell">400 ₽</td>
+                </tr>
+            </table>
+
+            <h3 class="subcategory-title">Поке</h3>
+            <table class="table-menu">
+                <tr>
+                    <td>Поке с лососем</td>
+                    <td class="price-cell">550 ₽</td>
+                </tr>
+                <tr>
+                    <td>Поке с креветкой</td>
+                    <td class="price-cell">550 ₽</td>
+                </tr>
+            </table>
+
+            <h3 class="subcategory-title">Супы</h3>
+            <table class="table-menu">
+                <tr>
+                    <td>Суп Том Ям</td>
+                    <td class="price-cell">590 ₽</td>
+                </tr>
+                <tr>
+                    <td>Мисо-суп с креветкой</td>
+                    <td class="price-cell">430 ₽</td>
+                </tr>
+                <tr>
+                    <td>Мисо-суп с лососем</td>
+                    <td class="price-cell">430 ₽</td>
+                </tr>
+                <tr>
+                    <td>Кимчи с лососем</td>
+                    <td class="price-cell">450 ₽</td>
+                </tr>
+                <tr>
+                    <td>Кимчи с креветкой</td>
+                    <td class="price-cell">450 ₽</td>
+                </tr>
+            </table>
+
+            <div class="allergy-notice">
+                ⚠ Если у вас есть аллергия на какие-либо продукты — обязательно сообщите об этом официанту.
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
